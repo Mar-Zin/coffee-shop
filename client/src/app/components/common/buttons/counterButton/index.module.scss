@@ -1,0 +1,60 @@
+.counter {
+    padding: 0 0 10px 30px;
+}
+
+.count {
+    display: inline-block;
+    height: 26px;
+    font-size: 16px;
+    padding: 0 3px;
+}
+.decrement {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    padding: 4px;
+    text-decoration: none;
+    border-radius: 100%;
+}
+.decrement:hover {
+    background-color: rgb(243, 236, 236);
+}
+.decrement::before{
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-image: url('../../../../images/decrement.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+    margin: auto;
+}
+.increment {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    padding: 4px;
+    text-decoration: none;
+    border-radius: 100%;
+}
+.increment:hover {
+    background-color: rgb(243, 236, 236);
+}
+.increment::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-image: url('../../../../images/increment.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+    margin: auto;
+}

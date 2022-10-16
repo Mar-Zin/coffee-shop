@@ -1,0 +1,154 @@
+.header {
+    padding-top: 10px ;
+    width: 100%;
+    height: 130px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    // box-shadow: 0px 9px 10px 2px rgba(34, 60, 80, 0.28);
+}
+.shadow {
+    box-shadow: 1px 44px 64px -17px rgba(34, 60, 80, 0.14);
+}
+
+.navBar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.logo_a {
+    width: 60px;
+    display: inline-block;
+}
+.logo_text{
+    display: inline-block;
+    color: black;
+    margin-left: 20px;
+}
+
+.phone {
+    margin: 0 2rem;
+}
+.link {
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.link:hover {
+    text-decoration:underline;
+}
+.arrow {
+    display: inline-block;
+    vertical-align: middle;
+    width: 6px;
+    height: 6px;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    transform: rotate(-45deg);
+    padding: 0;
+    margin-top: -7px;
+    margin-left: 10px;
+}
+.makeCoffee {
+    margin: 0 auto 0 2rem;
+}
+
+.line_h {
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin: 10px 0 15px;
+    position: relative;
+}
+.line_h::before {
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 1px;
+    background: #d8d8d8;
+    display: block;
+    left: calc(-50vw + 50% - 2.5px);
+}
+
+.info {
+    margin: 0 auto;
+}
+
+.enter {
+    display: flex;
+}
+.enterOpen {
+    border: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.login-a {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: black
+}
+.login_img {
+    width: 30px;
+}
+.login_text {
+    margin-left: 15px;
+}
+
+.reg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_reg{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black
+
+}
+
+.overlay {
+    background: rgba(0,0,0, 0);
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+}
+
+.header_menu {
+    margin: 0 auto;
+}
+.menu_h {
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 50px;
+    position: relative;
+}
+.favorites {
+    width: 35px;
+    height: 35px;
+    background-color: #8d87879c;
+    border-radius: 100%;
+    background-image: url('../../../images/favorites.png');
+    background-size: 20px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    font-size: 0;
+    margin: 0 20px 0 0;
+}
+.favorites:hover {
+    background-color: #4646469c;
+}
+

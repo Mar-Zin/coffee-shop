@@ -1,0 +1,82 @@
+.wrapper {
+    padding-top: 80px;
+    position: relative;
+}
+.blackBtn {
+    display: block;
+    font-size: 15px;
+    color: #fff;
+    background-color: #202020;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 0;
+    position: absolute;
+    right: 0;
+    top: 33px;
+}
+.black {
+    display: block;
+    font-size: 15px;
+    color: #fff;
+    background-color: #202020;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    padding: 7px 15px;
+    border: 0;
+}
+.buttons {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+table {
+    table-layout: fixed;
+    border-collapse:collapse;
+    border: 3px solid black;
+}
+  
+  thead th:nth-child(1) {
+    width: 30%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 10%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 10%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 15%;
+  }
+  thead th:nth-child(5) {
+    width: 15%;
+  }
+  
+th, td {
+    padding: 20px;
+}
+th {
+    letter-spacing: 2px;
+}
+  
+td {
+    letter-spacing: 1px;
+}
+  
+tbody td {
+    text-align: center;
+} 
+thead {
+    border: 1px solid black;
+    th {
+        font-size: 16px;
+    }
+}
+tr {
+    border: 1px solid black;
+}

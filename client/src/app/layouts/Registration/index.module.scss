@@ -1,0 +1,32 @@
+.loginPage {
+    margin: 50px 100px ;
+}
+.h2 {
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    font-size: 32px;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.input {
+    margin-bottom: 20px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid #707070;
+    width: 40%;
+    display: block;
+    padding: 0 16px 1.5rem 0;
+}
+.blackBtn {
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    background-color: #202020;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    padding: 15px 50px;
+    border: 0;
+    text-decoration: none;
+}

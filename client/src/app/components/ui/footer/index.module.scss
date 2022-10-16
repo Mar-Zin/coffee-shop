@@ -1,0 +1,21 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .text {
+    margin-bottom: 20px;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 900;
+  }
+  .ul_f li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    opacity: .5;
+    padding-bottom: 5px;
+  }
+  .footer_fourth {
+    min-width: 40%;
+    text-align: right;
+  }

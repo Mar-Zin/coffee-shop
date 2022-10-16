@@ -1,0 +1,52 @@
+.blackBtn {
+    display: table;
+    color: #fff;
+    font-size: 13px;
+    background-color: #444242;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 10px;
+    border: 0;
+    margin: 20px auto ;
+    text-decoration: none;
+}
+  
+.filterBox {
+    display: flex;  
+    justify-content: center;
+  
+}
+.filter_item {
+    background: #fff;
+    border: 1px solid #d8d8d8;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+  
+.filter1__icon {
+  
+    width: 150px;
+    height: 64px;
+    background: url(https://shop.tastycoffee.ru/assets/site/img/filters/esp_1.svg) no-repeat 50% ;
+    
+}
+.filter2__icon {
+    width: 150px;
+    height: 64px;
+    background: url(https://shop.tastycoffee.ru/assets/site/img/filters/fil_2.svg) no-repeat 50%;
+}
+.filter3__icon {
+    width: 150px;
+    height: 64px;
+    background: url(https://shop.tastycoffee.ru/assets/site/img/filters/caps.svg) no-repeat 50%;
+}
+.filter4__icon {
+    width: 150px;
+    height: 64px;
+    background: url(https://shop.tastycoffee.ru/assets/site/img/filters/drip.svg) no-repeat 50%;
+}
+.filter__to {
+    padding-left: 35px;
+    background-color: #fff;
+}

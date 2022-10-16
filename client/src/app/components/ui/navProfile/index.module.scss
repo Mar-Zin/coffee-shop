@@ -1,0 +1,48 @@
+.navProfive {
+    position: relative;
+}
+.profile_link {
+    max-width: 124px;
+    text-decoration: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #4a4a4a;
+    display: block;
+    padding-left: 42px;
+    position: relative;
+    z-index: 3;
+    display: inline-block;
+}
+.profile_link::before {
+    content: "";
+    width: 2rem;
+    height: 2rem;
+    background-color: #f2f2f2;
+    border-radius: 100%;
+    background-image: url(../../../images/profile.png);
+    background-size: 30px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: -5px;
+}
+.logOut {
+    margin-top: 5px;
+    padding-left: 22px;
+    text-decoration: none;
+    color: #4a4a4a;
+    display: inline-block;
+}
+.admin {
+    display: inline-block;
+    color: #fff;
+    background-color: #202020;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 0;
+    margin-right: 20px;
+    text-decoration: none;
+}
