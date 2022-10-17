@@ -53,7 +53,6 @@ const CoffeeCard = ({ item }:CoffeeCardProps) => {
       <div className="coffee-card-footer">
         <div className="coffee-card-footer__left">
           <span className="price">Цена: {item.price} ₽</span>
-          {/* <span className={style.favotites} onClick={()=>addToFavorites(item)}></span> */}
         </div>
         <div className="coffe-card-footer__right">
           <Counter count={count} setCount={setCount}  />
