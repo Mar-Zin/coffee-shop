@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7f2dd661.css",
+    "main.js": "/static/js/main.674ced9e.js",
+    "static/media/coffeePack.png": "/static/media/coffeePack.f51b34cb1357bc5fe50f.png",
+    "static/media/GothamPro.ttf": "/static/media/GothamPro.0bf54ab241cce31b49c1.ttf",
+    "static/media/plumbcondensed_black.ttf": "/static/media/plumbcondensed_black.ab63bf50f3f47052b7b4.ttf",
+    "static/media/plumbcondensed_bold.ttf": "/static/media/plumbcondensed_bold.3ae4f223a898c67dc773.ttf",
+    "static/media/GothamPro.woff": "/static/media/GothamPro.9e3de47599b8a119a2b3.woff",
+    "static/media/GothamPro.woff2": "/static/media/GothamPro.97a23059df8a758600fb.woff2",
+    "static/media/logo.svg": "/static/media/logo.b3c2b47fe4eede95a0e0aa2a1c47d7b8.svg",
+    "static/media/like.svg": "/static/media/like.617a6842839008ea290a60a3aad3d872.svg",
+    "static/media/percent.svg": "/static/media/percent.f814f655f8a7f30cb39d.svg",
+    "static/media/share.svg": "/static/media/share.4f9cac28400a97e5cb81c05db8f1d540.svg",
+    "static/media/fav.svg": "/static/media/fav.c6a58edf0ce79891be1c8301688beaea.svg",
+    "static/media/buy.svg": "/static/media/buy.0f06d91bb8ec72d136e7.svg",
+    "index.html": "/index.html",
+    "static/media/chat.svg": "/static/media/chat.b8d0b9ad6798612df32a833a1ee6a160.svg",
+    "static/media/heart.svg": "/static/media/heart.8b3a00760885c1f0c914.svg",
+    "static/media/dots.svg": "/static/media/dots.44a31d9abfac494501d7cd92493d0f59.svg",
+    "static/media/check.svg": "/static/media/check.17c5df7b96925a971562.svg",
+    "main.7f2dd661.css.map": "/static/css/main.7f2dd661.css.map",
+    "main.674ced9e.js.map": "/static/js/main.674ced9e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f2dd661.css",
+    "static/js/main.674ced9e.js"
+  ]
+}
