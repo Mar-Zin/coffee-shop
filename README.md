@@ -32,6 +32,17 @@ SPA приложение с клиент-серверной архитектур
 ![Screenshot](./screenshots/sign-up.png)
 
 
+- Страница редактирования пользователя
+
+![Screenshot](./screenshots/Edit-profile.png)
+
+
+- Страница восстановления пароля
+
+![Screenshot](./screenshots/request-to-reset.png)
+![Screenshot](./screenshots/reset-page.png)
+
+
 - Страница товара (Оставить отзыв могут только авторизованные пользователи)
 
 ![Screenshot](./screenshots/product-page.png)
@@ -40,11 +51,6 @@ SPA приложение с клиент-серверной архитектур
 - Панель администратора(only user role is Admin) 
 
 ![Screenshot](./screenshots/admin-page.png)
-
-
-- Страница редактирования пользователя
-
-![Screenshot](./screenshots/Edit-profile.png)
 
 
 - Страницы: Корзина, Руководство по приготовлению, Избранное.  
