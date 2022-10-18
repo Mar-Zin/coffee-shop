@@ -98,11 +98,11 @@ router.get("/:email", async (req, res) => {
 
        <p>Кто-то запросил восстановление пароля для вашей учетной записи.</p>
 
-       <button><a href="http://localhost:3000/resetpassword/${token}">Кнопка</a></button>
+       <button><a href="http://81.163.30.243/resetpassword/${token}">Кнопка</a></button>
 
        <p>Если кнопка не работает, скопируйте ссылку и вставьте ее в адресную строку вашего браузера: </p>
 
-       <a href="http://localhost:3000/resetpassword/${token}">http://localhost:3000/resetpassword/${token}</a>
+       <a href="http://81.163.30.243/resetpassword/${token}">http://81.163.30.243/resetpassword/${token}</a>
       
       
        <p>Если вы не запрашивали новый пароль или считаете, что произошла ошибка, просто проигнорируйте это письмо. </p>
