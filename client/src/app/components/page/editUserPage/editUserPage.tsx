@@ -110,6 +110,7 @@ const EditUserPage = () => {
         <div className="">
           {!isLoading ? (
             <form onSubmit={handleSubmit}>
+              <div style={{width:"30%"}}>
               <TextField
                 placeholder="* Имя"
                 name="name"
@@ -117,6 +118,8 @@ const EditUserPage = () => {
                 onChange={handleChange}
                 error={errors.name}
               />
+              </div>
+              <div style={{width:"30%"}}>
               <TextField
                 placeholder="* E-Mail"
                 name="email"
@@ -124,6 +127,7 @@ const EditUserPage = () => {
                 onChange={handleChange}
                 error={errors.email}
               />
+              </div>
               <RadioField
                 options={[
                   { name: "Yes", value: "yes", label: "Да" },
