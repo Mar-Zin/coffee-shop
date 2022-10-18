@@ -28,7 +28,7 @@ SPA приложение с клиент-серверной архитектур
 
 - Авторизация и регистрация
 
-![Screenshot](./screenshots/sing-in.png)
+![Screenshot](./screenshots/sign-in.png)
 ![Screenshot](./screenshots/sign-up.png)
 
 
