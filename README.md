@@ -39,7 +39,7 @@ SPA приложение с клиент-серверной архитектур
 
 - Страница восстановления пароля
 
-![Screenshot](./screenshots/request-to-reset.png)
+![Screenshot](./screenshots/Request-to-reset.png)
 ![Screenshot](./screenshots/reset-page.png)
 
 
